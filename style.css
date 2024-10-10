@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html, body  {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+body{
+    width: 98svw;
+    min-height: 97svh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    color: #FF6B82;
+    background-color: #FF6B82;
+}
+.container{
+    padding: 20px 50px 20px 50px;
+    width: 350px;
+    min-height: 70svh;
+    background-color: white;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.title{
+    color:  #FF6B82;
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+.flex{
+    display: flex;
+    gap: 5px;
+}
+.card{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: #bbbbbb solid;
+    cursor: pointer;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.subtitle{
+    font-size: 20px;
+    font-weight: 800;
+    color: #000000;
+}
+.discount-amount{
+    padding: 5px;
+    background-color: #FF6B82;
+    color:white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.expanded-card{
+    min-height: 20svh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: #bbbbbb solid;
+}
+/* Small devices (portrait tablets and phones, 768px and small) */
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: lightsalmon;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: rgb(255, 76, 6);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+}
